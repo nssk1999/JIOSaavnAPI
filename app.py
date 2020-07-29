@@ -10,8 +10,8 @@ import jiosaavn
 app = Flask('JIOSaavn API')
 CORS(app)
 
-host = "127.0.0.1"
-port = 9000
+host = "0.0.0.0"
+port = 8080
 download_location = "downloads"
 
 @app.route("/search")
